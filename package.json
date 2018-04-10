@@ -1,0 +1,21 @@
+{
+  "name": "es6-babel",
+  "version": "0.3.0",
+  "description": "Babel setup",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel dev-script.js --watch --out-file script.js"
+  },
+  "keywords": [
+    "babel",
+    "setup",
+    "es6"
+  ],
+  "author": "mnap00",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
